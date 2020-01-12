@@ -1,0 +1,32 @@
+/*
+Remove first indentation for lists into a table
+ */
+.in-table-list {
+    padding-left: 0;
+
+    list-style-position: inside;
+}
+
+.in-table-list .in-table-list {
+    padding-left: 20px;
+}
+
+.userinfotable tr th {
+    width: 20%;
+}
+
+.userinfotable tr td {
+    width: 80%;
+}
+
+.color-brighter {
+    color: rgba(255,255,255,0.9);
+}
+
+.auth-buttons {
+    margin-left: 40px;
+}
+
+.auth-buttons button+button {
+    margin-left: 20px;
+}
